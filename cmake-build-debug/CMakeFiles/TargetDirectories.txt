@@ -1,0 +1,4 @@
+C:/Users/Bo Xuan Yang/Desktop/Projects/twmailer/cmake-build-debug/CMakeFiles/twmailer-server.dir
+C:/Users/Bo Xuan Yang/Desktop/Projects/twmailer/cmake-build-debug/CMakeFiles/twmailer-client.dir
+C:/Users/Bo Xuan Yang/Desktop/Projects/twmailer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bo Xuan Yang/Desktop/Projects/twmailer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

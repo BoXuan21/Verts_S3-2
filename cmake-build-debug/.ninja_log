@@ -1,0 +1,26 @@
+# ninja log v6
+2	293	7554523928971115	build.ninja	4ed1ed7f62ec34d9
+34	2284	7554520630730259	CMakeFiles/twmailer-server.dir/server.cpp.obj	99b6617fbb113796
+18	2481	7554521943024906	CMakeFiles/twmailer-server.dir/main.cpp.obj	dbfcedefb4fd56b
+2482	2645	7554521967660798	twmailer-server.exe	4cb554ab7406a4de
+8	1947	7554525226567655	CMakeFiles/twmailer-client.dir/client.cpp.obj	8b01a70c631b3f8c
+2	2046	7554525226497663	CMakeFiles/twmailer-client.dir/main.cpp.obj	89fa4b4241831162
+2046	2170	7554525246936479	twmailer-client.exe	4ec8ea4360a5ca1
+13	2065	7554528138234400	CMakeFiles/twmailer-client.dir/client.cpp.obj	8b01a70c631b3f8c
+7	2138	7554528138164407	CMakeFiles/twmailer-client.dir/main.cpp.obj	89fa4b4241831162
+2139	2256	7554528159490005	twmailer-client.exe	4ec8ea4360a5ca1
+31	2554	7554528913470723	CMakeFiles/twmailer-server.dir/server.cpp.obj	99b6617fbb113796
+25	2829	7554528913410750	CMakeFiles/twmailer-server.dir/main.cpp.obj	dbfcedefb4fd56b
+2829	3033	7554528941450714	twmailer-server.exe	4cb554ab7406a4de
+33	2525	7554528987110988	CMakeFiles/twmailer-client.dir/client.cpp.obj	8b01a70c631b3f8c
+27	3009	7554528987050974	CMakeFiles/twmailer-client.dir/main.cpp.obj	89fa4b4241831162
+3010	3152	7554529016875324	twmailer-client.exe	4ec8ea4360a5ca1
+12	2467	7554532327704087	CMakeFiles/twmailer-server.dir/server.cpp.obj	99b6617fbb113796
+7	2764	7554532327654076	CMakeFiles/twmailer-server.dir/main.cpp.obj	dbfcedefb4fd56b
+2764	2921	7554532355224371	twmailer-server.exe	4cb554ab7406a4de
+13	2972	7554533286493428	CMakeFiles/twmailer-client.dir/client.cpp.obj	8b01a70c631b3f8c
+7	4896	7554533286443364	CMakeFiles/twmailer-client.dir/main.cpp.obj	89fa4b4241831162
+4896	6383	7554533335337697	twmailer-client.exe	4ec8ea4360a5ca1
+35	2704	7554534425849283	CMakeFiles/twmailer-server.dir/server.cpp.obj	99b6617fbb113796
+28	2978	7554534425789276	CMakeFiles/twmailer-server.dir/main.cpp.obj	dbfcedefb4fd56b
+2979	3140	7554534455286708	twmailer-server.exe	4cb554ab7406a4de
