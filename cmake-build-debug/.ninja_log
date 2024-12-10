@@ -24,3 +24,6 @@
 35	2704	7554534425849283	CMakeFiles/twmailer-server.dir/server.cpp.obj	99b6617fbb113796
 28	2978	7554534425789276	CMakeFiles/twmailer-server.dir/main.cpp.obj	dbfcedefb4fd56b
 2979	3140	7554534455286708	twmailer-server.exe	4cb554ab7406a4de
+25	5163	7555430066593431	CMakeFiles/twmailer-client.dir/client.cpp.obj	8b01a70c631b3f8c
+13	9021	7555430066493432	CMakeFiles/twmailer-client.dir/main.cpp.obj	89fa4b4241831162
+9021	12318	7555430156559568	twmailer-client.exe	4ec8ea4360a5ca1

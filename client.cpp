@@ -33,7 +33,8 @@ private:
         std::cout << "Sender: ";
         std::getline(std::cin, sender);
         // Trim whitespace
-        sender = std::regex_replace(sender, std::regex("^\\s+|\\s+$"), "");
+        sender = std::regex_replace(sender, std::regex("^\\s+|\\s+$"), ""); // Keep internal spaces intact
+
         std::cout << "Debug - Sending sender: '" << sender + "\n.\n" << "'" << std::endl;
         sendMessage(sender + "\n.\n");
 
