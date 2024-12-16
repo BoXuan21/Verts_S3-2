@@ -158,7 +158,7 @@ private:
         std::ifstream file(filepath);
         std::stringstream buffer;
         buffer << file.rdbuf();
-        std::string message = "OK\n" + buffer.str();
+        std::string message = "OK\n" + buffer.str() + "\n";
         send(client_socket, message.c_str(), message.length(), 0);
     }
 

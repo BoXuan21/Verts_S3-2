@@ -35,19 +35,19 @@ private:
         // Trim whitespace
         sender = std::regex_replace(sender, std::regex("^\\s+|\\s+$"), ""); // Keep internal spaces intact
 
-        std::cout << "Debug - Sending sender: '" << sender + "\n.\n" << "'" << std::endl;
+        //std::cout << "Debug - Sending sender: '" << sender + "\n.\n" << "'" << std::endl;
         sendMessage(sender + "\n.\n");
 
         std::cout << "Receiver: ";
         std::getline(std::cin, receiver);
         receiver = std::regex_replace(receiver, std::regex("^\\s+|\\s+$"), "");
-        std::cout << "Debug - Sending receiver: '" << receiver + "\n.\n" << "'" << std::endl;
+        //std::cout << "Debug - Sending receiver: '" << receiver + "\n.\n" << "'" << std::endl;
         sendMessage(receiver + "\n.\n");
 
         std::cout << "Subject: ";
         std::getline(std::cin, subject);
         subject = std::regex_replace(subject, std::regex("^\\s+|\\s+$"), "");
-        std::cout << "Debug - Sending subject: '" << subject + "\n.\n" << "'" << std::endl;
+        //std::cout << "Debug - Sending subject: '" << subject + "\n.\n" << "'" << std::endl;
         sendMessage(subject + "\n.\n");
 
         std::cout << "Message (end with a line containing only '.'): " << std::endl;
@@ -65,7 +65,7 @@ private:
             message.pop_back();
         }
 
-        std::cout << "Debug - Sending message: '" << message + "\n.\n" << "'" << std::endl;
+        //std::cout << "Debug - Sending message: '" << message + "\n.\n" << "'" << std::endl;
         sendMessage(message + "\n.\n");
 
         std::string response = readResponse();
@@ -100,7 +100,7 @@ private:
         sendMessage(message_id + "\n.\n");
 
         std::string response = readResponse();
-        std::cout << "Message:\n" << response;
+        std::cout << "\nMessage:\n" << response;
     }
 
     void handleDelete() {
@@ -123,7 +123,7 @@ private:
 
     void sendCommand() {
         std::string input;
-        std::cout << "Enter command (SEND/LIST/READ/DEL/QUIT): ";
+        std::cout << "\nEnter command (SEND/LIST/READ/DEL/QUIT): ";
         std::getline(std::cin, input);
 
         if (input == "SEND") {
